@@ -5,19 +5,19 @@ function Footer() {
     let data = new Date().getFullYear()
 
     return (
-        <div className="flex justify-center bg-indigo-900 text-white">
-            <div className="container flex flex-col items-center py-4">
-                <p className='text-xl font-bold'>
+        <footer className="flex justify-center bg-indigo-900 text-white">
+            <div className="container flex flex-col items-center gap-2 px-4 py-5 text-center sm:gap-3 sm:py-6">
+                <p className='text-base font-bold sm:text-xl'>
                     Farmácia Generation | Copyright: {data}
                 </p>
-                <p className='text-lg'>Acesse nossas redes sociais</p>
-                <div className='flex gap-2'>
-                    <LinkedinLogo size={48} weight='bold' />
-                    <InstagramLogo size={48} weight='bold' />
-                    <FacebookLogo size={48} weight='bold' />
+                <p className='text-sm sm:text-lg'>Acesse nossas redes sociais</p>
+                <div className='flex gap-3'>
+                    <LinkedinLogo size={28} weight='bold' className="sm:size-[35px]" />
+                    <InstagramLogo size={28} weight='bold' className="sm:size-[35px]" />
+                    <FacebookLogo size={28} weight='bold' className="sm:size-[35px]" />
                 </div>
             </div>
-        </div>
+        </footer>
 
     )
 }

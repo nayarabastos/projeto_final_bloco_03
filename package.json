@@ -15,8 +15,10 @@
     "phosphor-react": "^1.4.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "react-number-format": "^5.4.5",
     "react-router-dom": "^7.18.3",
-    "react-spinners": "^0.17.0"
+    "react-spinners": "^0.17.0",
+    "reactjs-popup": "^2.0.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
