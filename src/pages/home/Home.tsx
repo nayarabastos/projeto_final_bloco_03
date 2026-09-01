@@ -1,5 +1,4 @@
 
-
 function Home() {
 	return (
 		<>
@@ -13,8 +12,8 @@ function Home() {
 							Aqui você encontra Medicamentos e Cosméticos!
 						</p>
 
-						<div className="flex justify-around gap-4 w-full">
-							<div className="hidden w-full md:flex md:justify-center md:items-center md:py-8">
+						<div className="flex justify-around gap-4 w-full ">
+							<div className="hidden w-full md:flex md:justify-center md:items-center md:py-8 ">
 								Cadastrar Produto
 							</div>
 						</div>

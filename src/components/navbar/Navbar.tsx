@@ -1,5 +1,5 @@
 import { ShoppingCartIcon, ListIcon } from "@phosphor-icons/react"
-import { Link } from "phosphor-react"
+import { Link } from "react-router-dom"
 import SearchForm from "./SearchForm"
 
 function Navbar() {
@@ -9,7 +9,7 @@ function Navbar() {
 			<div className="w-full flex justify-center py-4 text-white bg-indigo-900 md:py-2">
 				<div className="container flex items-center justify-between mx-6 mt-2 text-lg">
 					{/* Logo da loja, sempre visível, redireciona para Home */}
-					<Link to="/">
+					<Link to="/home">
 						<img
 							src="https://i.imgur.com/HoXUpPk.png"
 							alt="Logo"
